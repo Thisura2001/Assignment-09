@@ -36,7 +36,7 @@
         .light {
             width: 100px;
             aspect-ratio: 2/1;
-            border: 2px solid black;
+            border: 2px solid #ffffff;
         }
 
 
@@ -112,7 +112,7 @@
     }
 
     $("#start").on("click", () => {
-        myInterval = setInterval(updateLightPanel, 50);
+        myInterval = setInterval(updateLightPanel, 150);
         $("#audio")[0].play();
     });
 
